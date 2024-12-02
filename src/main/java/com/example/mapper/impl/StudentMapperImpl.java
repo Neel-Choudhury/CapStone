@@ -14,7 +14,10 @@ import com.example.model.StudentDTO;
 import com.example.repo.CourseRepo;
 import com.example.repo.StudentRepo;
 
+import jakarta.transaction.Transactional;
+
 @Service
+@Transactional
 public class StudentMapperImpl implements StudentMapper {
 	@Autowired
 	StudentRepo stdntRepo;

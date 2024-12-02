@@ -6,7 +6,6 @@ import org.springframework.http.ResponseEntity;
 
 import com.example.entity.Student;
 import com.example.model.EndpointAPIResponse;
-import com.example.model.FakeStoreProductDownstream;
 import com.example.model.StudentDTO;
 
 public interface SampleService {
